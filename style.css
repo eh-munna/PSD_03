@@ -1,0 +1,505 @@
+/*============Global Designing Start============*/
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    width:100%;
+    height: auto;
+    color:#96a6a7;
+    font-size:14px;
+    font-family:'Montserrat',sans-serif;
+    line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+p{
+    color:#777777;
+}
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('fonts/Montserrat-Regular.ttf'),
+    url('Montserrat-Regular.ttf') format('truetype');
+}
+/*============Global Designing End============*/
+
+/*==========Header Style Start==========*/
+
+header{
+    background: url('img/header-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+
+.header-overlay{
+    background-color: rgba(0,0,0,0.75);
+    height: 100%;
+    width:100%;
+    position:absolute;
+}
+
+.is-sticky .navbar{
+	background:#000000;
+	background-image: url('../images/hearder-bg_02.png');
+	background-position: bottom;
+    height: 75px;
+	background-repeat: no-repeat;
+	z-index:999999999999 !important;
+	transition:all .5s ease-in-out;
+	opacity:0.68;
+    color:#fff;
+    padding: 0;
+}
+
+.nav-bar{
+	padding-top: 30px;
+    transition:all .5s ease-in-out;
+}
+
+.nav-bar ul li {
+	padding: 0 20px;
+}
+.nav-bar ul li a {
+	text-transform: uppercase;
+    color:#ffffff !important;
+    font-weight: 700;
+    transition:1s ease-out;
+}
+.nav-bar ul li a:hover{
+    color:#ee2f1b !important;
+    transition:1s ease-in;
+    
+}
+.header-text {
+	text-align: center;
+	margin: 0 auto !important;
+	padding: 150px 0 165px;
+}
+.header-text h1 {
+	color: #fff;
+	text-transform: uppercase;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 35px;
+	padding-bottom: 40px;
+    font-weight: 700;
+}
+.header-text p {
+	color: #ccc;
+	width: 65%;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-top: 50px;
+}
+.straight-line {
+	background: #35b9eb;
+	height: 1px;
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*==========Header Style End==========*/
+
+
+/*==========Service Section Style Start==========*/
+.service{
+    padding:100px 0;
+}
+
+.core-services-text{
+    text-align: center;
+}
+.core-services-text h1{
+    color:#000;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.services-icon-heading-text{
+    text-align:center;
+    padding-top:75px;
+}
+
+.services-icon i {
+	font-size: 40px;
+	padding-bottom: 25px;
+}
+
+.services-heading-text h1 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+}
+.services-heading-text p{}
+
+/*==========Service Section Style End==========*/
+
+
+/*==========Expertise Section Style Start==========*/
+.expertise{
+    background: #f7f7f7;
+}
+.expertise-heading-icon-text{
+    padding:100px 0 75px;
+}
+.expertise-heading-icon-text h1{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.expertise-heading-icon-text p {
+	width: 65%;
+}
+.expertise-icon-text{
+    padding-top:25px;
+}
+.expertise-icon-text-parent{
+    display: flex;
+}
+.expertise-icon-text-child{
+    display: flex;
+}
+.expertise-child-icon {
+	padding-right: 15px;
+}
+.expertise-child-icon i {
+	font-size: 30px;
+	line-height: 38px;
+}
+
+.expertise-child-text h3 {
+	font-size: 22px;
+}
+.expertise-child-text p {
+	width: 90%;
+}
+.expertise-btn {
+	padding-top: 50px;
+}
+.expertise-btn a {
+	text-decoration: none;
+	background: #fff;
+	padding: 15px;
+	border-radius: 30px;
+	border: 1px solid #d1f1fd;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+    transition: 1s ease-out;
+}
+.expertise-btn a:hover {
+	 color:#ee2f1b !important;
+    transition:1s ease-in;
+    border: 1px solid #007bff;
+}
+
+.expertise-side-img {
+	height: 100%;
+}
+.expertise-side-img img {
+	height: 100%;
+	position: relative;
+	right: 0;
+}
+/*==========Expertise Section Style End==========*/
+
+/*==========Service Section Style Start==========*/
+.service{
+    padding:100px 0;
+}
+
+.core-services-text{
+    text-align: center;
+}
+.core-services-text h1{
+    color:#000;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.services-icon-heading-text{
+    text-align:center;
+    padding-top:75px;
+}
+
+.services-icon i {
+	font-size: 40px;
+	padding-bottom: 25px;
+}
+
+.services-heading-text h1 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+}
+.services-heading-text p{}
+
+/*==========Service Section Style End==========*/
+
+
+/*==========Portfolio Section Style Start==========*/
+.portfolio{
+    background: #fff;
+}
+.portfolio-text-wrap{
+    padding:100px 0 75px;
+    background: url('img/portfolio-txt-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolio-heading-text h1{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.portfolio-heading-text p {}
+.expertise-icon-text{
+    padding-top:25px;
+}
+.portfolio-icon-text-parent {
+	padding-top: 25px;
+}
+.portfolio-icon-text-child{
+    display: flex;
+}
+.portfolio-child-icon {
+	padding-right: 15px;
+}
+.portfolio-child-icon i {
+	font-size: 30px;
+	line-height: 38px;
+}
+.portfolio-child-text h3 {
+	font-size: 22px;
+}
+.expertise-child-text p {
+	width: 90%;
+}
+
+.portfolio-side-img img {
+	height: 100%;
+	position: relative;
+	right: 0;
+	top: 120px;
+	width: 100%;
+}
+/*==========Portfolio Section Style End==========*/
+
+
+/*==========Portfolio Image Gallery Section Style Start==========*/
+.portfolio-image-gallery figure{
+    margin: 0;
+}
+.portfolio-image-gallery figure img {
+	width: 100%;
+}
+/*
+.portfolio-image-gallery figure img:hover {
+	transform: scale(1.5);
+    transition: all 1s;
+    z-index: 20;
+}
+*/
+
+/*==========Portfolio Image Gallery Section Style End==========*/
+
+
+/*==========About Section Style Start==========*/
+
+/*==========About Section Style End==========*/
+.about{
+    padding:100px 0;
+}
+.about-heading{
+    text-align: center;
+}
+.about-heading h1{
+    padding:0 0 25px;
+    font-size: 35px;
+}
+.about-box {
+	padding: 60px 0 0;
+}
+.about-box-odd-heading-text {
+	text-align: right;
+}
+.about-box-img {
+	text-align: center;
+}
+
+.about-box-odd-heading h4,h5{
+    font-size: 22px;
+}
+.about-even-odd-heading h4, h5 {
+	font-size: 22px;
+}
+/*==========Team Section Style Start==========*/
+
+.team{
+    padding:100px 0;
+    background:#f7f7f7;
+}
+.team-heading{
+    text-align: center;
+}
+.team-heading h1{
+    padding:0 0 25px;
+    font-size: 35px;
+}
+
+.team-member-img-text-icon {
+	text-align: center;
+	margin: 60px 0 0;
+}
+
+.team-member-text h4 {
+	font-size: 18px;
+	padding: 20px 0 0;
+	text-transform: capitalize;
+}
+
+.team-member-icon ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 5px;
+}
+.team-member-icon ul li a {
+	text-decoration: none;
+}
+.team-member-icon ul li a i {
+	color: #fff;
+	background: #000;
+	font-size: 25px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+}
+
+.team-f-text {
+	text-align: center;
+	padding: 70px 0 0;
+}
+.team-f-text p {
+	width: 55%;
+	margin: 0 auto;
+}
+
+
+/*==========Team Section Style End==========*/
+
+
+/*==========Footer Style End==========*/
+
+footer{
+    padding:100px 0 40px;
+    background: #111111;
+    color:#ffffff !important;
+}
+.contact-heading h1 {
+	color: #fff;
+	font-size: 35px;
+	padding: 0 0 15px;
+}
+.contact-heading p{
+    color:#fff;
+}
+.contact-icon-wrap{
+    display: flex;
+    padding:25px 0 0;
+}
+.contact-icon-list-wrap{}
+.contact-icon-list {
+	display: flex;
+	padding: 0 0 20px 0;
+}
+.contact-icon {
+	padding: 0 15px 0 0;
+}
+.contact-icon i {
+	font-size: 20px;
+	line-height: 25px;
+}
+.contact-icon-text{}
+.contact-icon-text a{
+    color:#fff !important;
+    text-decoration:none;
+}
+.contact-icon-list-padding {
+	padding: 0px 75px 0 0;
+}
+.contact-btn {
+	background: #35c2f8 !important;
+	text-transform: uppercase;
+	padding: 15px 15px;
+	border-radius: 35px;
+	font-weight: 500;
+}
+.footer-copy-text {
+	text-align: center;
+	padding: 20px 0 0;
+	border-top: 1px solid #fff;
+	margin: 50px 0 0;
+}
+.footer-copy-text p{
+    color:#fff;
+}
+/*==========Footer Style End==========*/
+
+
+/*==================================*\
+    Back to top Sttyle Start
+\*==================================*/
+
+#back-to-top {
+  	display:none;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 20px;
+  	width: 50px;
+  	height: 50px;
+  	line-height: 50px;
+  	text-align: center;
+  	background: #6195FF;
+  	border-radius:3px;
+  	color: #FFF;
+  	z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+  	cursor: pointer;
+}
+
+#back-to-top:after {
+    content: "\f106";
+    font-family: 'FontAwesome';
+}
+
+#back-to-top:hover {
+    opacity: 0.8;
+}
+
+
+/*==================================*\
+    Back to top Sttyle End
+\*==================================*/
+
